@@ -11,8 +11,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getQueryPasta() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                ////.queryParam("apiKey", getApiKey())
                 .queryParam("query", "pasta")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -28,8 +28,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getIntolerances() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("intolerances", "Egg")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -45,8 +45,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getIncludeIngredients() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("includeIngredients", "chocolate")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -61,8 +61,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getExcludeIngredients() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("excludeIngredients", "onion")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -77,8 +77,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getInstructionsRequired() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("instructionsRequired", "false")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -93,8 +93,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getFillIngredients() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("fillIngredients", "true")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -109,8 +109,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getAddRecipeInformation() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("addRecipeInformation", "false")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -125,8 +125,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getAddRecipeNutrition() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("addRecipeNutrition", "true")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -141,8 +141,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getTitleMatch() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("titleMatch", "Crock Pot")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -157,8 +157,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getMaxReadyTime() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("maxReadyTime", "20")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -173,8 +173,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getIgnorePantry() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("ignorePantry", "true")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -189,8 +189,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getMinCarbs() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minCarbs", "20")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -205,8 +205,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getMaxCarbs() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("maxCarbs", "100")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -221,8 +221,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getMinProtein() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minProtein", "20")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -237,8 +237,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getMaxProtein() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("maxProtein", "100")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -253,8 +253,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getDiet() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("diet", "Ketogenic")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -269,8 +269,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getCalories() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minCalories", "100")
                 .queryParam("maxCalories", "600")
                 .queryParam("number", getRandomNumber())
@@ -286,8 +286,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getExcludeCuisine() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("excludeCuisine", "Mediterranean")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -302,8 +302,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getCuisine() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("cuisine", "Thai")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -318,8 +318,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getEquipment() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("equipment", "blender")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -334,8 +334,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getVitaminA() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minVitaminA", "10")
                 .queryParam("maxVitaminA", "200")
                 .queryParam("number", getRandomNumber())
@@ -351,8 +351,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getLimitLicense() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("limitLicense", "true")
                 .queryParam("number", getRandomNumber())
                 .when()
@@ -367,8 +367,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getVitaminB() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minVitaminB", "10")
                 .queryParam("maxVitaminB", "200")
                 .queryParam("number", getRandomNumber())
@@ -384,8 +384,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getVitaminC() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minVitaminC", "10")
                 .queryParam("maxVitaminC", "200")
                 .queryParam("number", getRandomNumber())
@@ -401,8 +401,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getVitaminD() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minVitaminD", "10")
                 .queryParam("maxVitaminD", "200")
                 .queryParam("number", getRandomNumber())
@@ -418,8 +418,8 @@ public class ComplexSearchTest extends AbstractTest{
     @Test
     void getVitaminE() {
 
-        JsonPath response = given()
-                .queryParam("apiKey", getApiKey())
+        JsonPath response = given().spec(getRequestSpecification())
+                //.queryParam("apiKey", getApiKey())
                 .queryParam("minVitaminE", "10")
                 .queryParam("maxVitaminE", "200")
                 .queryParam("number", getRandomNumber())

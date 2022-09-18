@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea55b034-1631-4d4a-8444-1d6d079c6e71" name="Changes" comment="">
+    <list default="true" id="ea55b034-1631-4d4a-8444-1d6d079c6e71" name="Changes" comment="Done HW Lesson 3">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/AbstractTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/ComplexSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/ComplexSearchTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/CuisineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/CuisineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/MealPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/MealPlan.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,14 +38,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
-  <component name="RunManager" selected="JUnit.MealPlan">
-    <configuration name="CuisineTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="JUnit.ShoppingList.addShoppingList">
+    <configuration name="CuisineTest.postCuisineLesson4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBackend" />
       <extension name="coverage">
         <pattern>
@@ -49,28 +58,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="Lesson3" />
       <option name="MAIN_CLASS_NAME" value="Lesson3.CuisineTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CuisineTest.postCuisineBurger" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.CuisineTest" />
-      <option name="METHOD_NAME" value="postCuisineBurger" />
+      <option name="METHOD_NAME" value="postCuisineLesson4" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CuisineTest.postCuisineSwedishPancake" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBackend" />
       <extension name="coverage">
         <pattern>
@@ -79,29 +73,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.CuisineTest" />
-      <option name="METHOD_NAME" value="postCuisineSwedishPancake" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MealPlan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.MealPlan" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MealPlan.addMealTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShoppingList.addShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBackend" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +88,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.MealPlan" />
-      <option name="METHOD_NAME" value="addMealTest" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
+      <option name="METHOD_NAME" value="addShoppingList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingList.deleteShoppingListItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson3" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
+      <option name="METHOD_NAME" value="deleteShoppingListItem" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShoppingList.getShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson3" />
+      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
+      <option name="METHOD_NAME" value="getShoppingList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -119,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.MealPlan" />
-        <item itemvalue="JUnit.MealPlan.addMealTest" />
-        <item itemvalue="JUnit.CuisineTest" />
-        <item itemvalue="JUnit.CuisineTest.postCuisineBurger" />
-        <item itemvalue="JUnit.CuisineTest.postCuisineSwedishPancake" />
+        <item itemvalue="JUnit.ShoppingList.addShoppingList" />
+        <item itemvalue="JUnit.ShoppingList.deleteShoppingListItem" />
+        <item itemvalue="JUnit.ShoppingList.getShoppingList" />
+        <item itemvalue="JUnit.ShoppingList" />
+        <item itemvalue="JUnit.CuisineTest.postCuisineLesson4" />
       </list>
     </recent_temporary>
   </component>
@@ -136,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1662949225204</updated>
     </task>
+    <task id="LOCAL-00001" summary="Done HW Lesson 3">
+      <created>1663173507473</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1663173507473</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -148,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done HW Lesson 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done HW Lesson 3" />
   </component>
 </project>
