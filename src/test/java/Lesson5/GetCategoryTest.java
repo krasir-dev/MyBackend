@@ -19,8 +19,8 @@ public class GetCategoryTest {
     static void beforeAll() {categoryController= RetrofitUtils.getRetrofit().create(CategoryController.class);}
 
     @SneakyThrows
-    @Test
-    void getCategoryByIdPositiveTest(){
+        @Test
+        void getCategoryByIdPositiveTest(){
         Response<GetCategoryResponse> response = categoryController.getCategory(2).execute();
 
         assertThat(response.isSuccessful(), CoreMatchers.is(true));

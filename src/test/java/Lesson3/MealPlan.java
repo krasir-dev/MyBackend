@@ -29,14 +29,10 @@ public class MealPlan extends AbstractTest{
                     .toString();*/
 
 
-        String userName = "krasir3";
-
-
-
         String id = given()
                 .queryParam("hash", getHashUser())
                 .queryParam("apiKey", getApiKey())
-                .pathParam("userName", userName)
+                .pathParam("userName", getUserName())
                 .body("{\n"
                         + " \"date\": 1663344701,\n"
                         + " \"slot\": 1,\n"
@@ -62,7 +58,7 @@ public class MealPlan extends AbstractTest{
         given()
                 .queryParam("hash", getHashUser())
                 .queryParam("apiKey", getApiKey())
-                .pathParam("userName", userName)
+                .pathParam("userName", getUserName())
                 .delete("https://api.spoonacular.com/mealplanner/{userName}/items/" + id)
                 .then()
                 .statusCode(200);

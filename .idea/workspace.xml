@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ea55b034-1631-4d4a-8444-1d6d079c6e71" name="Changes" comment="Done HW Lesson 3">
+    <list default="true" id="ea55b034-1631-4d4a-8444-1d6d079c6e71" name="Changes" comment="Done HW Lesson 6">
       <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/my.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/my.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/AbstractTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/AbstractTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/ComplexSearchTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/ComplexSearchTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/CuisineTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/CuisineTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson6/db/mapper/xml/CategoriesMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/mapper/xml/CategoriesMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Lesson6/db/mapper/xml/ProductsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Lesson6/db/mapper/xml/ProductsMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Lesson3/MealPlan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson3/MealPlan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson5/CreateProductTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson5/CreateProductTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Lesson5/GetCategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Lesson5/GetCategoryTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +21,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -43,85 +43,88 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.23448277",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+    "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ShoppingList.addShoppingList">
-    <configuration name="CuisineTest.postCuisineLesson4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GetCategoryTest.getCategoryByIdPositiveTest">
+    <configuration name="CreateProductTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.CuisineTest" />
-      <option name="METHOD_NAME" value="postCuisineLesson4" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MyBackend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
+      <option name="PACKAGE_NAME" value="Lesson6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson6.CreateProductTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList.addShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateProductTest.createProductInFoodCategoryTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
-      <option name="METHOD_NAME" value="addShoppingList" />
+      <option name="PACKAGE_NAME" value="Lesson5" />
+      <option name="MAIN_CLASS_NAME" value="Lesson5.CreateProductTest" />
+      <option name="METHOD_NAME" value="createProductInFoodCategoryTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList.deleteShoppingListItem" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateProductTest.createProductInFoodCategoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
-      <option name="METHOD_NAME" value="deleteShoppingListItem" />
+      <option name="PACKAGE_NAME" value="Lesson6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson6.CreateProductTest" />
+      <option name="METHOD_NAME" value="createProductInFoodCategoryTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShoppingList.getShoppingList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CreateProductTest.newRecordByMyBatis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MyBackend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Lesson3.*" />
+          <option name="PATTERN" value="Lesson6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Lesson3" />
-      <option name="MAIN_CLASS_NAME" value="Lesson3.ShoppingList" />
-      <option name="METHOD_NAME" value="getShoppingList" />
+      <option name="PACKAGE_NAME" value="Lesson6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson6.CreateProductTest" />
+      <option name="METHOD_NAME" value="newRecordByMyBatis" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GetCategoryTest.getCategoryByIdPositiveTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBackend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lesson6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lesson6" />
+      <option name="MAIN_CLASS_NAME" value="Lesson6.GetCategoryTest" />
+      <option name="METHOD_NAME" value="getCategoryByIdPositiveTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -129,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ShoppingList.addShoppingList" />
-        <item itemvalue="JUnit.ShoppingList.deleteShoppingListItem" />
-        <item itemvalue="JUnit.ShoppingList.getShoppingList" />
-        <item itemvalue="JUnit.ShoppingList" />
-        <item itemvalue="JUnit.CuisineTest.postCuisineLesson4" />
+        <item itemvalue="JUnit.GetCategoryTest.getCategoryByIdPositiveTest" />
+        <item itemvalue="JUnit.CreateProductTest" />
+        <item itemvalue="JUnit.CreateProductTest.createProductInFoodCategoryTest" />
+        <item itemvalue="JUnit.CreateProductTest.createProductInFoodCategoryTest (1)" />
+        <item itemvalue="JUnit.CreateProductTest.newRecordByMyBatis" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +156,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663173507473</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done HW Lesson 4">
+      <created>1663519765504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1663519765504</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Done HW Lesson 5">
+      <created>1663687280708</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663687280708</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Done HW Lesson 6">
+      <created>1664730248014</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664730248014</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +193,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done HW Lesson 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Done HW Lesson 3" />
+    <MESSAGE value="Done HW Lesson 4" />
+    <MESSAGE value="Done HW Lesson 5" />
+    <MESSAGE value="Done HW Lesson 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done HW Lesson 6" />
   </component>
 </project>
